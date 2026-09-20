@@ -6,11 +6,7 @@ function App() {
 
   return (
     <>
-
-
- 
-<h1>i am making firebase product</h1>
-
+     <h1>Simple Firebase Auth</h1>
       
     </>
   )
