@@ -48,13 +48,14 @@ const login = () => {
           >Sign out
           </button>
           :
-          <button
+          <><button
             onClick={handleGoogleSignIn}
             className="flex w-full items-center justify-center gap-2 rounded-lg border bg-gray-100 p-3 font-semibold hover:bg-gray-200"
           >
             <FcGoogle className="text-xl" />
             Sign in with Google
           </button>
+          <button className="btn"> i am google</button></>
         }
         {user && (
           <div className="mt-6 rounded-lg bg-slate-50 p-4">
