@@ -55,7 +55,7 @@ const login = () => {
             <FcGoogle className="text-xl" />
             Sign in with Google
           </button>
-          <button className="btn"> i am google</button></>
+          
         }
         {user && (
           <div className="mt-6 rounded-lg bg-slate-50 p-4">
